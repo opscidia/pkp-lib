@@ -162,10 +162,8 @@
 		var $modal = $('<div class="pkp_modal_panel"></div>');
 
 		// Title bar
-		if (typeof(this.options.title) !== 'undefined') {
+		if (this.options.title !== 'undefined') {
 			$modal.append('<div class="header">' + this.options.title + '</div>');
-		} else {
-			$modal.append('<div class="header">' + '</div>');
 		}
 
 		// Close button
